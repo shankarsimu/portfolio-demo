@@ -1,0 +1,222 @@
+/* Custom Styles */
+body {
+    font-family: Brush Script MT, Cursive;
+    font-
+    background-color:#f2f4f4
+}
+.navbar{
+margin: 10px;
+     border-radius: 12px 12px 12px 12px;
+}
+.navbar-brand{
+    margin: 5px;
+}
+
+#home {
+   /* background-image: url('./images/hero-bg.jpg');*/
+    background-size: cover;
+    background-position: flex;
+    margin: 0.5px;
+
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+/* General Reset */
+
+/* Notify Section Styling */
+.notify-section {
+    display: center;
+    align-items: center;
+     border-radius: 12px 12px 12px 12px;
+     margin:40px;
+    min-height: 8vh;
+    background-color: #808b96; /* Dark background */
+    text-color: #fff;
+    text-size: 12/* White text */
+}
+
+.container {
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px; /* Rounded corners */
+    background-container: linear-gradient(140deg, #121512, #3a3a3a); /* Gradient background*/
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.notify-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.notify-form input {
+    padding: 0.8rem 1rem;
+    border-radius: 8px 0 0 8px; /* Rounded corners for left side */
+    border: none;
+    font-size: 1rem; /* Input text size */
+    width: 300px; /* Increased width */
+}
+.notify-form button {
+    padding: 0.8rem 1.5rem;
+    border-radius: 0 8px 8px 0; /* Rounded corners for right side */
+    border: none;
+    outline:none;
+    background-color: #fff; /* White button */
+    color: #121212; /* Dark text on button */
+    font-size: 1rem; /* Button text size */
+    cursor: pointer;
+}
+
+.notify-form button:hover {
+    background-color: #ede24d; /* Slight hover effect */
+}
+------
+.contact-section {
+    background-color: #f9f9f9; /* Light background */
+    padding: 3rem ;
+    font-weight: bold;
+    margin:40px;
+}
+
+.contact-section .container {
+    background: #fff;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.contact-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.contact-form {
+    flex: 1 1 400px; /* Grow, shrink, base width */
+}
+
+.contact-map {
+    flex: 1 1 400px; /* Grow, shrink, base width */
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #121212; /* Blue button */
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
+/* Photo Grid Layout */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below image */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.grid-item:nth-child(1) {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.grid-item:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.grid-item:nth-child(3) {
+  grid-column: 1 /3;
+  grid-row: 2 / 3;
+}
+.grid-item:nth-child(4) {
+  grid-column: 2 / 2;
+  grid-row: 3 / 4;
+}
+.grid-item:nth-child(5) {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+.grid-item:nth-child(6) {
+  grid-column: 1 / 1;
+  grid-row: 4 / 5;
+}
+.grid-item:nth-child(7) {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
